@@ -5,6 +5,8 @@ body{
 }
 :root{
     --primary-clr: #6C63FF;
+    /* --dark-gray: #515761; */
+    --dark-gray: #6B7280;
 }
 hr{
     margin: 2rem 0 ;
@@ -64,4 +66,17 @@ hr{
 } */
 .link-active{
     font-weight: bold; 
+}
+/* header */
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero-heading{
+    padding-top: 2rem;
+    color: var(--dark-gray);
+}
+.heading-inverted{
+    color: var(--primary-clr);
 }
