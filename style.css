@@ -7,6 +7,7 @@ body{
     --primary-clr: #6C63FF;
     /* --dark-gray: #515761; */
     --dark-gray: #6B7280;
+    --gray: #E5E7EB;
 }
 hr{
     margin: 2rem 0 ;
@@ -76,7 +77,22 @@ hr{
 .hero-heading{
     padding-top: 2rem;
     color: var(--dark-gray);
+    text-align: center;
 }
 .heading-inverted{
     color: var(--primary-clr);
+}
+/* section */
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+/* .section p{
+    max-width: 650px;
+    
+} */
+.ow{
+    background: var(--gray);
 }
