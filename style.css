@@ -21,6 +21,7 @@ hr{
     max-width: 600px;
     margin: auto;
 }
+
 /* links */
 .link{
     text-decoration: none;
@@ -52,10 +53,7 @@ hr{
     border-radius: 0 0 0 1rem;
     padding: 1rem;
 }
-.nav-brand{
-    font-weight: bold;
-    font-size: 1.1rem;
-}
+
 .navigation .link{
     color: white;
 }
@@ -68,6 +66,12 @@ hr{
 } */
 .link-active{
     font-weight: bold; 
+}
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* padding-left: 5rem; */
+ 
 }
 /* header */
 .hero-img{
@@ -117,4 +121,10 @@ hr{
 .footer-header{
     font-weight: bold;
     font-size: 1.5rem;
+}
+.blog-heading{
+    color: var(--dark-gray);
+}
+.size{
+    font-size: 1.3rem;
 }
