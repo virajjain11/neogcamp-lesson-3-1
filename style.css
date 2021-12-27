@@ -3,6 +3,7 @@
 body{
     font-family: 'Nunito', sans-serif;
     margin: 0;
+    padding: 0;
 }
 :root{
     --primary-clr: #6C63FF;
@@ -50,7 +51,7 @@ hr{
 .navigation{
     background: var(--primary-clr);
     color: white;
-    border-radius: 0 0 0 1rem;
+    border-radius: 0 0 0 1.5rem;
     padding: 1rem;
 }
 
@@ -128,3 +129,6 @@ hr{
 .size{
     font-size: 1.3rem;
 }
+
+.footer-style{
+border-radius: 0 1.5rem 0 0;}
