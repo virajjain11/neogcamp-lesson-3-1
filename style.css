@@ -21,6 +21,7 @@ hr{
 .container-center{
     max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 
 /* links */
@@ -132,4 +133,12 @@ hr{
 }
 
 .footer-style{
-border-radius: 0 2.5rem 0 0;}
+border-radius: 0 2.5rem 0 0;
+}
+/* extra */
+ .mar{
+     padding: 1rem 0 2.5rem 0;
+ }
+ .vh{
+     height: 50vh;
+ }
